@@ -59,11 +59,86 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
-              <Link className="nav-link" href="/riesgoquimico">
+            {/* =========================
+                RIESGO QUÍMICO
+            ========================= */}
+
+            <li className="nav-item dropdown">
+
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Riesgo Químico
-              </Link>
+              </a>
+
+              <ul className="dropdown-menu">
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico"
+                  >
+                    Riesgo Químico
+                  </Link>
+                </li>
+
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico/gestion"
+                  >
+                    Gestión
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico/sga"
+                  >
+                    Sistema Globalmente Armonizado – SGA
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico/transporte"
+                  >
+                    Transporte de Mercancías Peligrosas
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico/almacenamiento"
+                  >
+                    Almacenamiento y Manipulación
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    href="/riesgoquimico/residuos"
+                  >
+                    Residuos químicos
+                  </Link>
+                </li>
+
+              </ul>
+
             </li>
+
 
             <li className="nav-item">
               <Link className="nav-link" href="/higieneindustrial">
