@@ -10,7 +10,7 @@ export default function Contacto() {
         <section className="internal-hero">
           <div className="container">
             <p className="section-subtitle">
-              CONTACTO
+              CONTACTENOS
             </p>
 
             <h1 className="internal-title">
@@ -46,8 +46,8 @@ export default function Contacto() {
                   <i className="bi bi-envelope"></i>
 
                   <div>
-                    <h3>IngenieraViviana@gmail.com</h3>
-                    <p>Por definir</p>
+                    <h3>Correo</h3>
+                    <p>VivianaRemolina@Quimprev.com</p>
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ export default function Contacto() {
 
                   <div>
                     <h3>Ubicación</h3>
-                    <p>Portal 80</p>
+                    <p>Bogota/Colombia</p>
                   </div>
                 </div>
               </div>
