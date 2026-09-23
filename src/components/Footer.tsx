@@ -51,17 +51,17 @@ export default function Footer() {
 
               <li>
                 <i className="bi bi-envelope"></i>
-                <span>Correo electrónico</span>
+                <span>VinianaRemolina@Quimprev.com</span>
               </li>
 
               <li>
                 <i className="bi bi-whatsapp"></i>
-                <span>WhatsApp</span>
+                <span>+57 3125225027</span>
               </li>
 
               <li>
                 <i className="bi bi-geo-alt"></i>
-                <span>Ubicación</span>
+                <span>Bogota/Colombia</span>
               </li>
 
             </ul>
