@@ -8,38 +8,26 @@ export default function Navbar() {
 >
       <div className="container">
 
-        <Link
+       <Link
   className="navbar-brand d-flex align-items-center"
   href="/"
 >
   <img
+    className="navbar-logo"
     src="/images/Logovivi.jpg"
-    alt="Logo"
-    style={{ height: "75px", width: "auto" }}
+    alt="Logo Viviana Remolina"
   />
 
-  <div className="ms-3">
-    <div
-      style={{
-        color: "var(--color-primary)",
-        fontWeight: 700,
-        fontSize: "1.2rem",
-      }}
-    >
+  <div className="navbar-brand-text">
+    <div className="navbar-name">
       ING. VIVIANA REMOLINA
     </div>
 
-    <div
-      style={{
-        color: "var(--color-secondary)",
-        fontSize: "0.85rem",
-      }}
-    >
+    <div className="navbar-description">
       Consultorías Especializadas en Ingeniería Química y SST
     </div>
   </div>
 </Link>
-
         <button
           className="navbar-toggler"
           type="button"

@@ -613,3 +613,48 @@ a {
     font-size: 1.9rem;
   }
 }
+
+/* Logo y nombre del Navbar */
+.navbar-logo {
+  height: 75px;
+  width: auto;
+  display: block;
+}
+
+.navbar-brand-text {
+  margin-left: 15px;
+}
+
+.navbar-name {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.navbar-description {
+  color: var(--color-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+/* Responsive para celulares */
+@media (max-width: 576px) {
+  .navbar-logo {
+    height: 55px;
+  }
+
+  .navbar-brand-text {
+    margin-left: 8px;
+  }
+
+  .navbar-name {
+    font-size: 0.95rem;
+  }
+
+  .navbar-description {
+    font-size: 0.68rem;
+    max-width: 180px;
+  }
+}
