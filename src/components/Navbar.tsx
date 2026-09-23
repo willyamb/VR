@@ -80,19 +80,6 @@ export default function Navbar() {
                 <li>
                   <Link
                     className="dropdown-item"
-                    href="/riesgoquimico"
-                  >
-                    Riesgo Químico
-                  </Link>
-                </li>
-
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-
-                <li>
-                  <Link
-                    className="dropdown-item"
                     href="/riesgoquimico/gestion"
                   >
                     Gestión
