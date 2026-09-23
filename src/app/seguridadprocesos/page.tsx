@@ -14,7 +14,7 @@ export default function Capacitaciones() {
             </p>
 
             <h1 className="internal-title">
-              Capacitaciones
+              Seguridad de Procesos
             </h1>
 
             <p className="internal-description">

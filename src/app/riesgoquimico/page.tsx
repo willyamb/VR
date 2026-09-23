@@ -14,7 +14,7 @@ export default function SeguridadQuimica() {
             </p>
 
             <h1 className="internal-title">
-              Seguridad Química
+              Riesgo Químico
             </h1>
 
             <p className="internal-description">

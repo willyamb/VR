@@ -14,7 +14,7 @@ export default function SST() {
             </p>
 
             <h1 className="internal-title">
-              Seguridad y Salud en el Trabajo
+              Higiene Industrial
             </h1>
 
             <p className="internal-description">

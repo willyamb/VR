@@ -1,21 +1,26 @@
+import Link from "next/link";
+
 const services = [
   {
-    icon: "bi bi-flask",
-    title: "Seguridad Química",
+    image: "/images/RiesgoQuimico.jpg",
+    title: "Riesgo Químico",
     description:
       "Asesoría y acompañamiento para la gestión segura de sustancias y productos químicos en las organizaciones.",
+    link: "/riesgoquimico",
   },
   {
-    icon: "bi bi-shield-check",
-    title: "Seguridad y Salud en el Trabajo",
+    image: "/images/HigieneIndustrial.jpg",
+    title: "Higiene Industrial",
     description:
       "Servicios orientados a fortalecer la gestión preventiva y las condiciones de seguridad en las empresas.",
+    link: "/higieneindustrial",
   },
   {
-    icon: "bi bi-mortarboard",
-    title: "Capacitaciones",
+    image: "/images/SeguridadProcesos.jpg",
+    title: "Seguridad de Procesos",
     description:
       "Espacios de formación dirigidos a empresas y trabajadores sobre temas relacionados con seguridad química y SST.",
+    link: "/seguridadprocesos",
   },
 ];
 
@@ -43,18 +48,24 @@ export default function Services() {
 
               <div className="service-card h-100">
 
-                <div className="service-icon">
-                  <i className={service.icon}></i>
+                <div className="service-image">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                  />
                 </div>
 
                 <h3>{service.title}</h3>
 
                 <p>{service.description}</p>
 
-                <a href="/contacto" className="service-link">
+                <Link
+                  href={service.link}
+                  className="service-link"
+                >
                   Conocer más
                   <i className="bi bi-arrow-right ms-2"></i>
-                </a>
+                </Link>
 
               </div>
 
